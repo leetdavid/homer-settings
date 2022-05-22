@@ -1,0 +1,3 @@
+[submodule "assets/homer-icons"]
+	path = assets/homer-icons
+	url = https://github.com/NX211/homer-icons
