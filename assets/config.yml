@@ -99,6 +99,14 @@ services:
         tag: "app"
         url: "http://tower:9696"
         target: "_blank"
+  - name: "Utilities"
+    icon: "fas fa-wrench"
+    items:
+      - name: "Organizr"
+        subtitle: "Basically this app but different"
+        logo: "assets/icons/organizrv2-icon.png"
+        url: "http://10.0.0.12"
+        target: "_blank"
 
   - name: "Home Automation"
     icon: "fas fa-home"
