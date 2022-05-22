@@ -79,8 +79,16 @@ services:
         url: "http://tower:8989"
         target: "_blank"
 
+      - name: "Radarr"
+        subtitle: "Sonarr but for movies"
+        logo: "assets/homer-icons/png/radarr.png"
+        tag: "app"
+        url: "http://tower:7878/"
+        target: "_blank"
+
+      
       - name: "Plex"
-        subtitle: "Watch stuff downloaded from Sonarr"
+        subtitle: "Watch stuff downloaded from Sonarr and Radarr"
         logo: "assets/homer-icons/png/plex.png"
         tag: "app"
         url: "http://tv:32400"
