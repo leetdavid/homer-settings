@@ -108,7 +108,7 @@ services:
         url: "http://10.0.0.12"
         target: "_blank"
 
-      - name: "Octopi"
+      - name: "Octoprint"
         subtitle: "3D Printing Server"
         logo: "assets/homer-icons/png/octoprint.png"
         url: "http://10.0.0.8"
