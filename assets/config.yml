@@ -108,6 +108,12 @@ services:
         url: "http://10.0.0.12"
         target: "_blank"
 
+      - name: "Octopi"
+        subtitle: "3D Printing Server"
+        logo: "assets/homer-icons/png/octoprint.png"
+        url: "http://10.0.0.8"
+        target: "_blank"
+
   - name: "Home Automation"
     icon: "fas fa-home"
     items:
@@ -153,7 +159,26 @@ services:
         url: "http://10.0.0.4:5000"
         target: "_blank"
 
+  - name: "Monitoring & Management"
+    icon: "fas fa-cogs"
+    items:
+      - name: "Unraid"
+        subtitle: "Unraid Console"
+        logo: "assets/homer-icons/png/unraid.png"
+        url: "http://tower"
+        target: "_blank"
 
+      - name: "Grafana"
+        subtitle: "System Monitoring Analytics Platform"
+        logo: "assets/homer-icons/png/grafana.png"
+        url: "http://tower:3000/"
+        target: "_blank"
+
+      - name: "Prometheus"
+        subtitle: "System Monitoring Database"
+        logo: "assets/homer-icons/png/prometheus.png"
+        url: "http://tower:9090/"
+        target: "_blank"
   # - name: "Applications"
   #   icon: "fas fa-cloud"
   #   items:
