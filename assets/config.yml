@@ -109,7 +109,13 @@ services:
         url: "http://10.0.0.22:8123"
         target: "_blank"
 
-  - name: "Network"
+      - name: "ESP Home"
+        subtitle: "Control things with an ESP32!"
+        logo: "assets/homer-icons/png/esphome.png"
+        url: "http://10.0.0.2:6052"
+        target: "_blank"
+
+  - name: "Networking"
     icon: "fas fa-network-wired"
     items:
       - name: "Pi-Hole"
