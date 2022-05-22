@@ -115,6 +115,15 @@ services:
         url: "http://10.0.0.2:6052"
         target: "_blank"
 
+  - name: "Photo Management"
+    icon: "fas fa-image"
+    items:
+      - name: "PhotoPrism"
+        subtitle: "Manage your photos"
+        logo: "assets/homer-icons/png/photoprism.png"
+        url: "http://10.0.0.2:2342"
+        target: "_blank"
+
   - name: "Networking"
     icon: "fas fa-network-wired"
     items:
